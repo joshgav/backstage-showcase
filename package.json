@@ -47,15 +47,15 @@
     "@spotify/prettier-config": "15.0.0",
     "cross-var": "1.1.0",
     "husky": "8.0.3",
-    "lint-staged": "15.0.2",
+    "lint-staged": "15.1.0",
     "prettier": "3.0.3",
     "turbo": "1.10.16",
     "typescript": "5.2.2",
-    "undici": "5.26.5"
+    "undici": "5.27.2"
   },
   "resolutions": {
-    "@types/react": "17.0.69",
-    "@types/react-dom": "17.0.22"
+    "@types/react": "17.0.70",
+    "@types/react-dom": "17.0.23"
   },
   "jest": {
     "testTimeout": 20000
@@ -66,5 +66,5 @@
     "*.{jsx,ts,tsx,mjs,cjs}": "turbo run lint --concurrency=1 -- --fix",
     "!(.eslintrc).js": "turbo run lint --concurrency=1 -- --fix"
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@1.22.21"
 }
